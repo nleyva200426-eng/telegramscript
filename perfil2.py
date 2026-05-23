@@ -6,7 +6,7 @@ import os
 import config
 
 
-PERFIL = StringSession("1AZWarzoBu2m3sESCObJFJTqgFmmfiKf-6-OOPsQbTq-yAA_4vx4ljwGOA1Gxzgatlqr7MdfnrgmZMpxGokgGnClOcaJxSPaATsmW0_DMxSHsSGo0RtU9UBFAUxAfULYFHnq64VuG110Trilqvo709ryzrIYO1MTwJBKiN8Xevdc6WNmHsZkEG4iGdxXsKLE1vCjf2sR017IuEzvvOsWQhbWRSZzWk_WIneWdquDk3X2vbzTMiGTscc94VCU1mkDhvTIAEYnnlSPWeQesuwufE2PigEGzyjykRY9_foLMtov1mCimUR893qleAddG5k-WNtFFOCGqjHZkkyZhIw8Sezw9a7DcSaI==")
+PERFIL = StringSession(os.environ.get("SESSION_STRING"))
 
 a = 0
 
